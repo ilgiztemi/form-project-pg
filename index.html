@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Form-project-7</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <h3>Note: This form is to be submitted 30 days before the starting date</h3>
+    <h2>Personal Information </h2>
+   <form id="form">
+     <table>
+       <tr>
+         <td >Name</td>
+         <td><input type="text" placeholder="Enter your name..." class="name"></td>
+       </tr>
+       <tr>
+         <td>Address</td>
+         <td><input type="address" placeholder="Enter your address..."  class="address"></td>
+       </tr>
+       <tr>
+         <td>E-mail</td>
+         <td><input type="email" placeholder="Enter your email..." class="email"></td>
+       </tr>
+       <tr>
+         <td>Grade</td>
+         <td><input type="grade" placeholder="Enter your grade..." class="grade"></td>
+       </tr>
+       <tr>
+         <td>Phone</td>
+         <td><input type="number" placeholder="+1" class="phone"></td>
+       </tr>
+     </table>
+     <h2>Gender</h2>
+     <table class="radio">
+       <tr>
+         <td>Male <input type="radio" value="male"></td>
+         <td>Female <input type="radio" value="female"></td>
+         <td>Other <input type="radio" value="other"></td>
+       </tr>
+       <tr>
+         <td>Date </td>
+         <td></td>
+         <td></td>
+         <td><input type="date" value="date"></td>
+       </tr>
+     </table>
+     <h3>Check all that apply</h3>
+     <table>
+       <tr>
+         <td><input type="checkbox" value="js">I want to learn Javascript</td>
+       </tr>  
+       <tr>
+         <td><input type="checkbox" value="react">I want to learn React</td>
+       </tr>
+       <tr>
+         <td><input type="checkbox" value="html">I want to learn HTML</td>
+       </tr>
+       <tr>
+         <td><input type="checkbox" value="css">I want to learn CSS</td>
+       </tr>
+       <tr>
+         <td><input type="checkbox" value="python"> I want to learn Python</td>
+       </tr>
+       <tr>
+         <td><input type="checkbox" value="c#"> I want to learn C#</td>
+       </tr>
+       <tr>
+         <td>Education Level:</td>
+         <td class="level">
+           <select id="education">
+             <option value="bachelor">Bachelors</option>
+             <option value="college">College</option>
+             <option value="highschool">Highschool</option>
+           </select>
+         </td>
+       </tr>
+     </table>
+     <h2>Essay Section</h2>
+     <section>
+       <main>
+         <td><textarea name="essay" id="essay" cols="26" rows="8" placeholder="Your essay here..."></textarea></td> <br>
+       <tr>
+         <td><button>Submit</button> <button>Cancel</button></td>
+       </tr>
+       </main>
+       <aside>
+         <img src="https://images.pexels.com/photos/7317297/pexels-photo-7317297.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="good-vibes" style="width:150px; height:131px;">
+       </aside>
+     </section>
+     
+   </form>
+  </body>
+  
+</html>

@@ -1,0 +1,30 @@
+body {
+    margin-left:50px;
+    margin-top:80px;
+    font-family: arial;
+    background-image: url(https://images.pexels.com/photos/5326940/pexels-photo-5326940.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+  }
+  table {
+    margin-left: 50px;
+    color: white;
+  }
+  .name, .address, .email, .grade, .phone {
+    margin-left: 150px;
+  }
+  button {
+    padding: 5px;
+  }
+  h1, h3, h2 {
+    color: #6be8d9;
+    font-style: italic;
+  }
+  main, aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 55px;
+  }
+  
+  
+  
